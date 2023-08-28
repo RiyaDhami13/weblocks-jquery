@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+    <head>
+    <!--title will appear on the page-->
+    <title>Employee Interest Survey</title>
+</head>
+<body>
+    <!--we use form tag to submit the details in this page-->
+    <form action = "http://google.com.np">
+<!--if we move the align then everything will move to left side of the page -->
+<div align = "center">
+    <!--here we add a heading-->
+    <h1><u>Employee Interest Survey Form</u></h1>
+    <!--this is for the input-->
+    <input type = "text" name="Username" size="35" maxlength="35">
+    <br>
+    <!--this is for textarea-->
+    Tell us little about yourself
+    <!--For writting-->
+    <textarea rows ="4" cols="30" name="Comments">
+      
+    </textarea>
+  <br><p>
+  Do you excercise at home?
+  <!--radio buttons help to choose between various options-->
+  <input type="radio" name "exe" value=1>Yes
+  <input type="radio" name="exe" value=2>No</p>
+  How do you like to read about favourite topics?
+  <p><!--checkbox allows you to choose multiple ooptions-->
+  <input type ="checkbox" name="Books">Books
+    <input type="checkbox" name="Web">Web
+    <input type="checkbox" name="Phone apps">Phone apps
+    <input type="checkbox" name="magazines">Magazines
+  </p>
+  What genre movies do you like?
+  <!--select the box which lets choose a option among many drop downs-->
+   <select name="moviepref"><option>
+     <option value=1 selected="true">types
+       <option value=2>comedy
+        <option value=3>romance
+        <option value=4>thriller
+        <option value=5>horror
+        <option value=6>drama
+        <option value=7>biopic
+        <option value=8>fantasy
+  </select>
+  <br>
+  <!--this info will be entered by user--><p>
+       <input type="submit" value="submit form">
+      </div>
+      </form>
+</body>
+</html>
